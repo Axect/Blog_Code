@@ -21,7 +21,7 @@ plt.ylabel(r'Density', fontsize=14)
 y = var['y'][:]  
 
 # Plot with Legends
-sns.distplot(y, label=r"Score", bins=20)
+sns.distplot(y, label=r"Score", bins=10)
 
 # Other options
 plt.legend(fontsize=12)
