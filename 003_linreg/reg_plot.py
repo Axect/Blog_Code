@@ -34,7 +34,7 @@ plt.ylabel(r'$y$', fontsize=14)
 
 # Plot with Legends
 plt.scatter(x, y, label=r'$y=2x+1+\epsilon$', alpha=0.7)
-plt.plot(x_reg, y_reg, label=r'$y={:.2f}x+{:.2f}$'.format(a, b))
+plt.plot(x_reg, y_reg, label=r'$y={:.2f}x+{:.2f}$'.format(a, b), color='red', alpha=0.8)
 
 # Other options
 plt.legend(fontsize=12)
